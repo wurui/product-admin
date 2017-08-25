@@ -4,6 +4,9 @@
     <env>
         <domain>local</domain>
     </env>
+    <login>
+        <uid>git/wurui</uid>
+    </login>
     <p>
         <title>demo page</title>
         <desc>this is deme page</desc>
@@ -11,35 +14,33 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-            <product-list>
-        <i>
-            <title>
-                nice notebook
-            </title>
-            <brief>
-                light-weight mobilephone
-            </brief>
-            <price>
-                screen
-            </price>
-            <img>
-                //oxm1.cc/img/fox.jpg
-            </img>
-            <href>
-                //oxm1.cc/img/fox.jpg
-            </href>
-            <tags>
-                <i>
-                    powerful watch
-                </i>
-            </tags>
-            <id>
-                watch
-            </id>
-            <orig_price>
-                0.02
-            </orig_price>
-        </i>
-    </product-list>
+        <product-list>
+            <i>
+                <title>nice notebook</title>
+                <brief>light-weight mobilephone</brief>
+                <price>screen</price>
+                <img>//oxm1.cc/img/fox.jpg</img>
+                <href>//oxm1.cc/img/fox.jpg</href>
+                <tags>
+                    <i>powerful watch</i>
+                </tags>
+                <_id>watch</_id>
+                <orig_price>0.02</orig_price>
+                <inventory>20</inventory>
+            </i>
+            <i>
+                <title>定制版扫码车贴1张</title>
+                <brief>light-weight mobilephone</brief>
+                <price>screen</price>
+                <img>//oxm1.cc/img/fox.jpg</img>
+                <href>//oxm1.cc/img/fox.jpg</href>
+                <tags>
+                    <i>powerful watch</i>
+                </tags>
+                <_id>599feec542da339bef5c3bb6</_id>
+                <orig_price>0.02</orig_price>
+                <inventory>12</inventory>
+            </i>
+        </product-list>
     </data>
 </root>
